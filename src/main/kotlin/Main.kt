@@ -166,6 +166,7 @@ class TuringMachine : Closeable {
         /**
          * Set of accepted states
          */
+        @JvmField
         val acceptingStates = setOf(q2)
     }
 
